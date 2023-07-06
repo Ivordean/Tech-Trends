@@ -9,7 +9,7 @@ $toemails = array();
 
 $toemails[] = array(
 				'email' => 'sureaccesstechnology@gmail.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'name' => 'Nnandi // Your Name
 			);
 
 // Form Processing Messages
