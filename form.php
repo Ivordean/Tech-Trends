@@ -2,8 +2,8 @@
 
 /*-------------------------------------------------
 
-	Form Processor Plugin
-	by SemiColonWeb
+	Form Sure access technology 
+	by Ivor-Dean Hammond 
 
 ---------------------------------------------------*/
 
@@ -27,8 +27,8 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'your-email@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'sureaccesstechnology@gmail.com', // Your Email Address
+				'name' => 'Nnandi' // Your Name
 			);
 
 
@@ -37,8 +37,8 @@ $toemails[] = array(
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'no-reply@website.com', // Company's Email Address (preferably currently used Domain Name)
-				'name' => 'Company Name' // Company Name
+				'email' => 'sureaccesstechnology@gmail.com', // Company's Email Address (preferably currently used Domain Name)
+				'name' => 'Sure access technology' // Company Name
 			);
 
 
@@ -255,7 +255,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		}
 	}
 
-	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
+	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>Sure access technology</strong>. All Rights Reserved.';
 
 	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
 	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
